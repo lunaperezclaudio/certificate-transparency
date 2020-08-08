@@ -1,4 +1,4 @@
-PROTOC?=protoc
+PROTOC?=HTML
 INSTALL_DIR?=`pwd`/../../install
 
 all: ct/proto/client_pb2.py ct/proto/ct_pb2.py ct/proto/tls_options_pb2.py \
